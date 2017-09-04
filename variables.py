@@ -3,4 +3,6 @@
 
 
 manila_pop = 1780148
-print(manila_pop)
+manila_area = foo
+manila_pop_density = manila_pop / manila_area
+print(manila_pop_density)
