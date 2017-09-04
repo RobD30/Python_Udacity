@@ -2,7 +2,7 @@ def cylinder_volume(height, radius):
     pi = 3.14159
     return height * pi * radius ** 2
 
-# todo: define a function named `population_density` that takes two arguments,
+# defined a function named `population_density` that takes two arguments,
 # `population` and `land_area` (in square kilometres), and returns a population
 # density calculated from those values.
 
