@@ -36,3 +36,25 @@ def scores_to_rating(score1, score2, score3, score4, score5):
     rating = score_to_rating_string(average_score)
 
     return rating
+
+
+def convert_to_numeric:
+    """
+    Converts the scores into a numerical value
+    """
+    return
+
+
+def sum_of_middle_three:
+    """
+    Gives the sum
+    """
+    return
+
+
+def score_to_rating
+    """
+
+    :return: 
+    """
+    return
