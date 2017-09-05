@@ -27,6 +27,15 @@ def sum_of_middle_three(score1, score2, score3, score4, score5):
     return sum
 
 
+def score_to_rating_string(score):
+    """
+    Convert the average score, which should be between 0 and 5,
+    into a string rating.
+    """
+    rating =
+    return rating
+
+
 def scores_to_rating(score1, score2, score3, score4, score5):
     """
     Turns five scores into a rating by averaging the
