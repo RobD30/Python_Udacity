@@ -27,4 +27,10 @@ def more_different():
     name = "Dennis"
     dish = ["Spam", "Spam", "Spam", "Spam", "Spam", "Spam", "baked beans", "Spam", "Spam", "Spam", "Spam"]
     mr_buns_order = dish
+    some_list = mr_buns_order
+    len(some_list)
+    max(some_list)
+    python_varieties = ['Burmese Python', 'African Rock Python', 'Ball Python', 'Reticulated Python', 'Angolan Python']
+    max(python_varieties)
+    print(python_varieties)
     pass
