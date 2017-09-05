@@ -40,7 +40,7 @@ def more_different():
 def some_ting():
     nautical_directions = "\n".join(["fore", "aft", "starboard", "port"])
     names = ["García", "O'Kelly", "Davis"]
-    stuff = ["thing", 42, "nope"]
+    stuff = ["thing", "42", "nope"]
     return " and ".join(stuff)
 
 print(some_ting())
