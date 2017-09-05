@@ -27,12 +27,21 @@ def sum_of_middle_three(score1, score2, score3, score4, score5):
     return sum
 
 
-def score_to_rating_string(score):
+def score_to_rating_string(av_score):
     """
     Convert the average score, which should be between 0 and 5,
     into a string rating.
     """
-    rating =
+    if av_score < 1:
+        rating = "Terrible"
+    elif av_score < 2:
+        rating = "Bad"
+    elif av_score < 3:
+        rating = "Ok"
+    elif av_score < 4:
+        rating = "Good"
+    else:
+        rating = "Excellent"
     return rating
 
 
