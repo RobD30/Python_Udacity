@@ -52,3 +52,17 @@ while sum(hand) <= 17:
     hand.append(card_deck.pop())
 
 print(hand)
+
+cargo_weight = 0
+cargo_hold = []
+
+for cargo in manifest:
+    print("debug: the weight is currently: {}".format(cargo_weight))
+    if cargo_weight >= 100:
+        print("debug: breaking loop now!")
+        break
+    else:
+        print("debug: adding item: {}".format(cargo[0]))
+        print("debug: with weight: {}".format(cargo[1]))
+        cargo_hold.append(cargo[0])
+        cargo_weight += cargo[1]
