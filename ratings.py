@@ -17,15 +17,17 @@
 # Choose the correct word rating for the average score.
 # Input: average score as float. Output: Rating as a string.
 
-def sum_of_middle_three:
+def sum_of_middle_three(score1, score2, score3, score4, score5):
     """
     Gives the sum
     """
-    sum = # stuff here
+    max_score = max(score1, score2, score3, score4, score5)
+    min_score = min(score1, score2, score3, score4, score5)
+    sum = score1 + score2 + score3 + score4 + score5 - max_score - min_score
     return sum
 
 
-def score_to_rating(score1, score2, score3, score4, score5):
+def scores_to_rating(score1, score2, score3, score4, score5):
     """
     Turns five scores into a rating by averaging the
     middle three of the five scores and assigning this average
@@ -45,5 +47,3 @@ def score_to_rating(score1, score2, score3, score4, score5):
     rating = score_to_rating_string(average_score)
 
     return rating
-
-
