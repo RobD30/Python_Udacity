@@ -57,11 +57,11 @@ def scores_to_rating(score1, score2, score3, score4, score5):
     to a written rating.
     """
     # Convert Scores to numbers
-    score1 = float(score1)
-    score2 = float(score2)
-    score3 = float(score3)
-    score4 = float(score4)
-    score5 = float(score5)
+    score1 = convert_to_numeric(score1)
+    score2 = convert_to_numeric(score2)
+    score3 = convert_to_numeric(score3)
+    score4 = convert_to_numeric(score4)
+    score5 = convert_to_numeric(score5)
 
     # STEP 2 and STEP 3 find the average of the middle three scores
     average_score = sum_of_middle_three(score1, score2, score3, score4, score5) / 3
