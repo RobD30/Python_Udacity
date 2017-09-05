@@ -50,7 +50,7 @@ def top_three(input_list):
 
     If input_list has fewer than three elements, return input_list element sorted largest to smallest/
     """
-    # TODO: implement this function
+    # implement this function
 
 def median(numbers):
     numbers.sort()
