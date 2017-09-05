@@ -16,12 +16,6 @@
 # Input: 3 scores as float or int. Output: 1 average score (float).
 # Choose the correct word rating for the average score.
 # Input: average score as float. Output: Rating as a string.
-def convert_to_numeric:
-    """
-    Converts the scores into a numerical value
-    """
-    return float(score)
-
 
 def sum_of_middle_three:
     """
@@ -31,26 +25,18 @@ def sum_of_middle_three:
     return sum
 
 
-def score_to_rating
-    """
-
-    :return: 
-    """
-    rating = # stuff here
-    return rating
-
-def scores_to_rating(score1, score2, score3, score4, score5):
+def score_to_rating(score1, score2, score3, score4, score5):
     """
     Turns five scores into a rating by averaging the
     middle three of the five scores and assigning this average
     to a written rating.
     """
     # Convert Scores to numbers
-    score1 = convert_to_numeric(score1)
-    score2 = convert_to_numeric(score2)
-    score3 = convert_to_numeric(score3)
-    score4 = convert_to_numeric(score4)
-    score5 = convert_to_numeric(score5)
+    score1 = float(score1)
+    score2 = float(score2)
+    score3 = float(score3)
+    score4 = float(score4)
+    score5 = float(score5)
 
     # STEP 2 and STEP 3 find the average of the middle three scores
     average_score = sum_of_middle_three(score1, score2, score3, score4, score5) / 3
