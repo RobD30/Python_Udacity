@@ -17,3 +17,14 @@ eclipse_dates = ['June 21, 2001', 'December 4, 2002', 'November 23, 2003',
 
 # Test for list
 print(eclipse_dates[7:10])
+
+def more_different():
+    sample_string = "And Now For Something Completely Different"
+    sample_list = ['Graham', 'John', 'Terry', 'Eric', 'Terry', 'Michael']
+    sentence1 = "I wish to resiter a complaint."
+    sentence2 = ["I", "wish", "to", "register", "a", "complaint", "."]
+    person = "Old Woman"
+    name = "Dennis"
+    dish = ["Spam", "Spam", "Spam", "Spam", "Spam", "Spam", "baked beans", "Spam", "Spam", "Spam", "Spam"]
+    mr_buns_order = dish
+    pass
