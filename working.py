@@ -3,7 +3,7 @@ def how_many_days(month_number):
     WARNING: This function doesn't account for leap years!
     """
     days_in_month = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
-    # todo: return the correct value
+    # return the correct value
     return days_in_month[9]
 
 
