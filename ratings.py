@@ -16,6 +16,11 @@
 # Input: 3 scores as float or int. Output: 1 average score (float).
 # Choose the correct word rating for the average score.
 # Input: average score as float. Output: Rating as a string.
+def convert_to_numeric(score):
+    """
+    Converts the scores into a numerical value
+    """
+    return float(score)
 
 def sum_of_middle_three(score1, score2, score3, score4, score5):
     """
