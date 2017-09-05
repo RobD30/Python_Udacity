@@ -16,3 +16,12 @@
 # Input: 3 scores as float or int. Output: 1 average score (float).
 # Choose the correct word rating for the average score.
 # Input: average score as float. Output: Rating as a string.
+def scores_to_rating(score1,score2,score3,score4,score5):
+    """
+    Turns five scores into a rating by averaging the
+    middle three of the five scores and assigning this average
+    to a written rating.
+    """
+    # THE CODE GOES HERE!
+
+    return rating
