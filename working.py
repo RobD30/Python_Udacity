@@ -33,4 +33,14 @@ def more_different():
     python_varieties = ['Burmese Python', 'African Rock Python', 'Ball Python', 'Reticulated Python', 'Angolan Python']
     max(python_varieties)
     print(python_varieties)
+    min(some_list)
+    sorted(some_list)
     pass
+
+def some_ting():
+    nautical_directions = "\n".join(["fore", "aft", "starboard", "port"])
+    names = ["García", "O'Kelly", "Davis"]
+    stuff = ["thing", 42, "nope"]
+    return " and ".join(stuff)
+
+print(some_ting())
