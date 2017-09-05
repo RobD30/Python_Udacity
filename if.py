@@ -22,7 +22,7 @@ def garden_calendar(season):
         print("time to stay indoors and drink tea!")
     else:
         print("I don't recognize that season")
-find
+
 
 #First Example - uncomment lines or change values to test the code
 phone_balance = 7.62
