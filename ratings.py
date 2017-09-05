@@ -20,16 +20,15 @@ def convert_to_numeric:
     """
     Converts the scores into a numerical value
     """
-    converted_score =  # stuff here
-    return converted_score
+    return float(score)
 
 
 def sum_of_middle_three:
     """
     Gives the sum
     """
-
-    return
+    sum = # stuff here
+    return sum
 
 
 def score_to_rating
@@ -37,7 +36,8 @@ def score_to_rating
 
     :return: 
     """
-    return
+    rating = # stuff here
+    return rating
 
 def scores_to_rating(score1, score2, score3, score4, score5):
     """
